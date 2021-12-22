@@ -7,7 +7,7 @@ const Banner = () => {
         class='main-banner wow fadeIn'
         id='top'
         data-wow-duration='1s'
-        data-wow-delay='0.5s'
+        data-wow-delay='0.6s'
       >
         <div class='container TutorEthiopia-container'>
           <div class='row'>
