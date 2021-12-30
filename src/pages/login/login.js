@@ -7,6 +7,7 @@ import { yupResolver } from '@hookform/resolvers/yup'
 import * as yup from 'yup'
 import LoginView from './LoginView/LoginView'
 import { useHistory } from 'react-router-dom'
+import {HandleErrors} from "../../common/handle_api_errors";
 
 const schema = yup
   .object({
@@ -48,11 +49,7 @@ const Login = () => {
         history.push('/members')
       })
       .catch((error) => {
-        if (error.response.status === 401) {
-          setErrorMessage(error?.response?.data?.error)
-        } else {
-          setErrorMessage(['Something went wrong. Please try again later.'])
-        }
+        setErrorMessage(HandleErrors(error))
         setLoading(false)
         setApiError(true)
       })

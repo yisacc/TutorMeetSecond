@@ -9,6 +9,7 @@ import { useForm } from "react-hook-form"
 import { yupResolver } from "@hookform/resolvers/yup"
 import { PersonalInfoSchema } from "./personalInfoSchema"
 import PersonalInfoForm from "./form/PersonalInfoForm"
+import {HandleErrors} from "../../../common/handle_api_errors";
 
 const PersonalInformation = (props) => {
   const { setActiveTab } = props
@@ -71,15 +72,7 @@ const PersonalInformation = (props) => {
         setloading(false)
       })
       .catch((error) => {
-        if (
-          error?.response?.status === 401 ||
-          error?.response?.status === 409 ||
-          error?.response?.status === 406
-        ) {
-          setErrorMessage(error?.response?.data?.error)
-        } else {
-          setErrorMessage(["Something went wrong. Please try again later."])
-        }
+        setErrorMessage(HandleErrors(error))
         setloading(false)
         setApiError(true)
       })

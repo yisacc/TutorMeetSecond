@@ -4,6 +4,7 @@ import { yupResolver } from '@hookform/resolvers/yup'
 import { useForm } from 'react-hook-form'
 import { TutorProfileInformationSchema } from './TutorProfileInformationSchema'
 import axiosInstance from '../../../utils/axios'
+import {HandleErrors} from "../../../common/handle_api_errors";
 
 const TutorProfileInformation = (props) => {
   const { setloading, userID, setErrorMessage, setApiError, history } = props
@@ -31,15 +32,7 @@ const TutorProfileInformation = (props) => {
         history.push('/members')
       })
       .catch((error) => {
-        if (
-          error?.response?.status === 401 ||
-          error?.response?.status === 409 ||
-          error?.response?.status === 406
-        ) {
-          setErrorMessage(error?.response?.data?.error)
-        } else {
-          setErrorMessage(['Something went wrong. Please try again later.'])
-        }
+        setErrorMessage(HandleErrors(error))
         setloading(false)
         setApiError(true)
       })

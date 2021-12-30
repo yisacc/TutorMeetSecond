@@ -1,5 +1,5 @@
 import AccountInfo from "./AccountInfo"
-import EnhancedDBS from "./EnhancedDBS.JS"
+import EnhancedDBS from "./EnhancedDBS.js"
 import Views from "./Views"
 
 const Overview = () => {

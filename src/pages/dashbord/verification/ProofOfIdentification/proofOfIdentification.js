@@ -11,9 +11,10 @@ import { getToken } from "../../../../common/Common"
 import axios from "axios"
 import FormattedDate from "../../../../common/formatedDate"
 import { useHistory } from "react-router-dom"
+import {HandleErrors} from "../../../../common/handle_api_errors";
 
 const ProofOfIdentification = () => {
-  const [loading, setloading] = useState(false)
+  const [loading, setLoading] = useState(false)
   const [apiError, setApiError] = useState(false)
   const [errorMessage, setErrorMessage] = useState([])
   const dispatch = useDispatch()
@@ -38,7 +39,7 @@ const ProofOfIdentification = () => {
       })
   }, [])
   const onSubmit = async (data) => {
-    setloading(true)
+    setLoading(true)
     setApiError(false)
     setErrorMessage(null)
     let requestBody = {
@@ -73,12 +74,16 @@ const ProofOfIdentification = () => {
           .then((response) => {
             history.push("/members")
           })
-          .catch((error) => {})
+          .catch((error) => {
+            setErrorMessage(HandleErrors(error))
+            setLoading(false)
+            setApiError(true)
+          })
       }
-
-      setloading(false)
     } catch (error) {
-      setloading(false)
+      setErrorMessage(HandleErrors(error))
+      setLoading(false)
+      setApiError(true)
     }
   }
   return (

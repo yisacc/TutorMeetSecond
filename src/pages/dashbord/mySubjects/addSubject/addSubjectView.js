@@ -1,6 +1,7 @@
-import Form from "../../profilePhoto/Form";
+import Form from './Form/form'
 
-const AddSubjectView = () => {
+const AddSubjectView = (props) => {
+  const {register,errors,handleSubmit,setValue}=props
   return (
     <div class='card'>
       <div class='cardheader'>
@@ -18,9 +19,12 @@ const AddSubjectView = () => {
           profile. Users who do so will immediately be removed from Tutor
           Ethiopia.
         </p>
-        <Form />
+        <Form register={register}
+              errors={errors}
+              handleSubmit={handleSubmit}
+
+              setValue={setValue} />
         <a
-          onclick='validateaddsubject(signupform,0);'
           class='btn btnsuccess'
           style={{ "margin-top": "20px" }}
         >

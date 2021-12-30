@@ -15,7 +15,7 @@ const SideBar = () => {
               Dashboard
             </Link>
             <Link
-              className={location.pathname === "/members/todo" ? "active" : ""}
+              className={location.pathname === "/members/todo"||location.pathname=="/members/upload-id" ? "active" : ""}
               to='/members/todo'
             >
               <i className='fas fa-check'></i>

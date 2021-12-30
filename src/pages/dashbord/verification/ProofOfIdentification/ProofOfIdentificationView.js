@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import Form from "./Form/Form"
+import ApiErrorMessage from "../../../register/accountInformation/apiErrorMessage";
 
 const ProofOfIdentificationView = (props) => {
   const {
@@ -26,7 +27,7 @@ const ProofOfIdentificationView = (props) => {
             will only be viewed by our admin team. We are registered with the
             Information Commissioner`s Office.
           </p>
-
+          {apiError ? <ApiErrorMessage errorMessage={errorMessage} /> : null}
           <Form
             register={register}
             errors={errors}

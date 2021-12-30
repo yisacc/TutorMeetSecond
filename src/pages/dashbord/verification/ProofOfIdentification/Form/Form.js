@@ -6,6 +6,7 @@ import Firstname from "./Firstname"
 import IdentificationType from "./IdentificationType"
 import Lastname from "./Lastname"
 import Othername from "./Othername"
+import {Loader} from "../../../common/loader";
 
 const Form = (props) => {
   const { register, errors, handleSubmit, onSubmit, setValue, loading } = props
@@ -36,29 +37,22 @@ const Form = (props) => {
         </label>
       </div>
       <FileUpload register={register} errors={errors} setValue={setValue} />
+      <div className='row'>
       <div class='cardbtncontainer col-lg-3'>
         <input
+            disabled={loading?true:false}
           type='submit'
           class='btn btnsuccess'
           style={{ "margin-top": "20px" }}
           value='Complete'
         />
+
       </div>
-      {loading && (
-        <span id='uploading'>
-          <img
-            src='/images/loading1.gif'
-            style={{
-              margin: 0,
-              padding: 0,
-              "margin-left": "30px",
-              position: "relative",
-              top: "28px",
-            }}
-            width='40px;'
-          />
-        </span>
-      )}
+      <div className='col-lg-3'>
+        {loading && (
+        <Loader />
+        )}
+      </div></div>
     </form>
   )
 }

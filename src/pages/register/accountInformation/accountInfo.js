@@ -7,6 +7,7 @@ import { schema } from './schema'
 import { useForm } from 'react-hook-form'
 import AccountInfoView from './AccountInfoView'
 import { setRefereshToken, setUserSession } from '../../../common/Common'
+import {HandleErrors} from "../../../common/handle_api_errors";
 
 const AccountInformation = (props) => {
   const { setActiveTab } = props
@@ -49,15 +50,7 @@ const AccountInformation = (props) => {
         setloading(false)
       })
       .catch((error) => {
-        if (
-          error?.response?.status === 401 ||
-          error?.response?.status === 409 ||
-          error?.response?.status === 406
-        ) {
-          setErrorMessage(error?.response?.data?.error)
-        } else {
-          setErrorMessage(['Something went wrong. Please try again later.'])
-        }
+        setErrorMessage(HandleErrors(error))
         setloading(false)
         setApiError(true)
       })

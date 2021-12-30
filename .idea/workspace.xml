@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b41bf85a-34cd-42ff-84b4-e10f1d73c834" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/common/handle_api_errors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/dashbord/common/loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/dashbord/mySubjects/addSubject/addSubjectSchema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/dashbord/common/sideBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashbord/common/sideBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/dashbord/members/Overview/EnhancedDBS.JS" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashbord/members/Overview/EnhancedDBS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/dashbord/members/Overview/overview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashbord/members/Overview/overview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/dashbord/mySubjects/addSubject/addSubject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashbord/mySubjects/addSubject/addSubject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/dashbord/mySubjects/addSubject/addSubjectView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashbord/mySubjects/addSubject/addSubjectView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/dashbord/verification/ProofOfIdentification/Form/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashbord/verification/ProofOfIdentification/Form/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/dashbord/verification/ProofOfIdentification/ProofOfIdentificationView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashbord/verification/ProofOfIdentification/ProofOfIdentificationView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/dashbord/verification/ProofOfIdentification/proofOfIdentification.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashbord/verification/ProofOfIdentification/proofOfIdentification.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/login/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/register/accountInformation/accountInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/register/accountInformation/accountInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/register/personalInformation/personalInformation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/register/personalInformation/personalInformation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/register/profileInformation/ClientInformation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/register/profileInformation/ClientInformation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/register/profileInformation/TutorProfileInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/register/profileInformation/TutorProfileInfo.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="main" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="22eZxfW0MaeNX9UHxg6kltDE4ez" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Personal\Projects\TutorEthiopia\Code\client_web\src\pages\dashbord\mySubjects\addSubject" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b41bf85a-34cd-42ff-84b4-e10f1d73c834" name="Default Changelist" comment="" />
+      <created>1640200261116</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640200261116</updated>
+      <workItem from="1640200265583" duration="4967000" />
+      <workItem from="1640258029149" duration="77000" />
+      <workItem from="1640281537174" duration="936000" />
+      <workItem from="1640708781489" duration="1231000" />
+      <workItem from="1640772481696" duration="1742000" />
+      <workItem from="1640774999278" duration="1611000" />
+      <workItem from="1640794736165" duration="2685000" />
+      <workItem from="1640855988932" duration="597000" />
+      <workItem from="1640895463162" duration="1559000" />
+    </task>
+    <task id="LOCAL-00001" summary="Proof of identification upload file and submit data done">
+      <created>1640201898732</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1640201898732</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Proof of identification upload file and submit data done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Proof of identification upload file and submit data done" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="174" y="30" key="Vcs.Push.Dialog.v2" timestamp="1640201412727">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="174" y="30" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1640201412727" />
+    <state x="328" y="22" width="710" height="684" key="find.popup" timestamp="1640773250638">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="328" y="22" width="710" height="684" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1640773250638" />
+  </component>
+</project>
