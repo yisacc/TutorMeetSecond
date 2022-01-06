@@ -1,7 +1,19 @@
 import Form from './Form/form'
+import ApiErrorMessage from "../../../register/accountInformation/apiErrorMessage";
 
 const AddSubjectView = (props) => {
-  const {register,errors,handleSubmit,setValue}=props
+  const {
+    register,
+    errors,
+    handleSubmit,
+    onSubmit,
+    loading,
+    apiError,
+    errorMessage,
+    handleSubjectCategoryChange,
+    subjects,
+    isAcademic
+  } = props
   return (
     <div class='card'>
       <div class='cardheader'>
@@ -19,17 +31,17 @@ const AddSubjectView = (props) => {
           profile. Users who do so will immediately be removed from Tutor
           Ethiopia.
         </p>
+        {apiError ? <ApiErrorMessage errorMessage={errorMessage} /> : null}
         <Form register={register}
               errors={errors}
               handleSubmit={handleSubmit}
+              onSubmit={onSubmit}
+              loading={loading}
+              handleSubjectCategoryChange={handleSubjectCategoryChange}
+              subjects={subjects}
+              isAcademic={isAcademic}
+        />
 
-              setValue={setValue} />
-        <a
-          class='btn btnsuccess'
-          style={{ "margin-top": "20px" }}
-        >
-          Add Subject{" "}
-        </a>
         <p style={{ "margin-top": "20px" }}>
           <i class='fas fa-times-circle' style={{ position: "relative" }}></i>
           &nbsp;<a href='/members/my-subjects.asp'>Cancel Add Subject</a>-

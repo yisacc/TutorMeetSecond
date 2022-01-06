@@ -39,7 +39,6 @@ const Login = () => {
       username: getValues('username'),
       password: getValues('password'),
     }
-    console.log(JSON.stringify(requestBody))
     axiosInstance
       .post('/api/users/login', requestBody)
       .then((response) => {

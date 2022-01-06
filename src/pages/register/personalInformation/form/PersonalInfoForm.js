@@ -30,7 +30,7 @@ const PersonalInfoForm = (props) => {
     const { value } = e.target
     let selectedCitySubCities = cities.filter((city) => city.cityId === value)
     if (selectedCitySubCities) {
-      setSubCities(selectedCitySubCities[0].subCity)
+      setSubCities(selectedCitySubCities[0]?.subCity)
     }
   }
   return (

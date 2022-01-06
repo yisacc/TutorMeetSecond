@@ -2043,6 +2043,7 @@ responsive
   color: #fff;
   transition: 0.3s;
   border-radius: 4px;
+  width: unset;
 }
 
 .footer .footer-newsletter form input[type="submit"]:hover {
@@ -2470,7 +2471,7 @@ Register
 .tabitem i {
   padding: 0 10px 0 10px;
 }
-.TutorEthiopia-register .card {
+  .card {
   -webkit-box-shadow: 0 3px 5px rgba(25, 30, 62, 0.02);
   box-shadow: 0 3px 5px rgba(25, 30, 62, 0.02);
   border-radius: 10px;
@@ -2479,26 +2480,26 @@ Register
   background-color: #fff;
   color: #666;
 }
-.TutorEthiopia-register .cardcontent {
+  .cardcontent {
   padding: 30px;
   color: #7e7d8f;
   padding-top: 20px;
   overflow: auto;
 }
-.TutorEthiopia-register .cardcontent input,
-.TutorEthiopia-register .cardcontent select,
-.TutorEthiopia-register .tabcontent input,
-.TutorEthiopia-register .tabcontent select {
+  .cardcontent input,
+  .cardcontent select,
+  .tabcontent input,
+  .tabcontent select {
   margin: 0;
   margin-bottom: 10px;
 }
-.TutorEthiopia-register .input,
-.TutorEthiopia-register .select,
-.TutorEthiopia-register .nice-select,
-.TutorEthiopia-register input,
-.TutorEthiopia-register select,
-.TutorEthiopia-register textarea,
-.TutorEthiopia-register .faded {
+  .input,
+  .select,
+  .nice-select,
+  input,
+  select,
+  textarea,
+  .faded {
   display: block;
   width: 100%;
   height: 48px;
@@ -2531,8 +2532,8 @@ Register
   }
 }
 
-.TutorEthiopia-register .cardcontent label,
-.TutorEthiopia-register .tabcontent label {
+  .cardcontent label,
+  .tabcontent label {
   margin: 0;
   padding: 0;
   color: #555;
@@ -2541,7 +2542,7 @@ Register
   display: inline-block;
   margin-top: 13px;
 }
-.TutorEthiopia-register .checkcontainer {
+  .checkcontainer {
   display: block;
   position: relative;
   padding-left: 36px !important;
@@ -2554,14 +2555,14 @@ Register
   -ms-user-select: none;
   user-select: none;
 }
-.TutorEthiopia-register .checkcontainer input {
+  .checkcontainer input {
   position: absolute;
   opacity: 0;
   cursor: pointer;
   height: 0;
   width: 0;
 }
-.TutorEthiopia-register .checkmark {
+  .checkmark {
   position: absolute;
   top: 0;
   left: 0;
@@ -2570,10 +2571,10 @@ Register
   background-color: #eee;
   border: 2px solid #7aa3e6;
 }
-.TutorEthiopia-register .cardbtncontainer {
+  .cardbtncontainer {
   margin-top: 20px;
 }
-.TutorEthiopia-register .btnsuccess {
+  .btnsuccess {
   color: #fff;
   background-color: #fe3f40 !important;
   border-radius: 30px;
@@ -3294,7 +3295,7 @@ Add Subject
 .checkcontainer input:checked ~ .checkmark {
   background-color: #03a4ed;
 }
-.TutorEthiopia-register .checkmark {
+  .checkmark {
   position: absolute;
   left: 0;
   height: 21px;
@@ -3302,22 +3303,22 @@ Add Subject
   background-color: #eee;
   border: 2px solid #03a4ed;
 }
-.TutorEthiopia-register .checkcontainer input {
+  .checkcontainer input {
   position: absolute;
   opacity: 0;
   cursor: pointer;
   height: 0;
   width: 0;
 }
-.TutorEthiopia-register .checkmark:after {
+  .checkmark:after {
   content: "";
   position: absolute;
   display: none;
 }
-.TutorEthiopia-register .checkcontainer input:checked ~ .checkmark:after {
+  .checkcontainer input:checked ~ .checkmark:after {
   display: block;
 }
-.TutorEthiopia-register .checkcontainer .checkmark:after {
+  .checkcontainer .checkmark:after {
   left: 7px;
   top: 3px;
   width: 5px;

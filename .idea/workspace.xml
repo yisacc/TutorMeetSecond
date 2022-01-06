@@ -20,23 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b41bf85a-34cd-42ff-84b4-e10f1d73c834" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/common/handle_api_errors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/dashbord/common/loader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/dashbord/mySubjects/addSubject/addSubjectSchema.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashbord/common/sideBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashbord/common/sideBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashbord/members/Overview/EnhancedDBS.JS" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashbord/members/Overview/EnhancedDBS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashbord/members/Overview/overview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashbord/members/Overview/overview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/dashbord/mySubjects/addSubject/Form/academicPrice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/dashbord/mySubjects/addSubject/Form/addCommision.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/dashbord/mySubjects/addSubject/Form/nonAcademicPrice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/dashbord/mySubjects/addSubject/Form/skillLevel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/dashbord/mySubjects/addSubject/Form/subject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/dashbord/mySubjects/addSubject/Form/subjectCategory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/dashbord/mySubjects/addSubject/Form/subjectCovered.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/actions/addSubjects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/subjectsReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/dashbord/mySubjects/addSubject/Form/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashbord/mySubjects/addSubject/Form/form.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/dashbord/mySubjects/addSubject/addSubject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashbord/mySubjects/addSubject/addSubject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/dashbord/mySubjects/addSubject/addSubjectSchema.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashbord/mySubjects/addSubject/addSubjectSchema.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/dashbord/mySubjects/addSubject/addSubjectView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashbord/mySubjects/addSubject/addSubjectView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashbord/verification/ProofOfIdentification/Form/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashbord/verification/ProofOfIdentification/Form/Form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashbord/verification/ProofOfIdentification/ProofOfIdentificationView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashbord/verification/ProofOfIdentification/ProofOfIdentificationView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashbord/verification/ProofOfIdentification/proofOfIdentification.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashbord/verification/ProofOfIdentification/proofOfIdentification.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/login/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/register/accountInformation/accountInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/register/accountInformation/accountInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/register/personalInformation/personalInformation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/register/personalInformation/personalInformation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/register/profileInformation/ClientInformation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/register/profileInformation/ClientInformation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/register/profileInformation/TutorProfileInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/register/profileInformation/TutorProfileInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/register/personalInformation/form/PersonalInfoForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/register/personalInformation/form/PersonalInfoForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/actionTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +107,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/dashbord/mySubjects/addSubject/Form" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -114,6 +117,11 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Personal\Projects\TutorEthiopia\Code\client_web\src\pages\dashbord\mySubjects\addSubject" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Personal\Projects\TutorEthiopia\Code\client_web\src\pages\dashbord\mySubjects\addSubject\Form" />
+      <recent name="D:\Personal\Projects\TutorEthiopia\Code\client_web\src\redux\reducers" />
+      <recent name="D:\Personal\Projects\TutorEthiopia\Code\client_web\src\redux\actions" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -134,7 +142,15 @@
       <workItem from="1640774999278" duration="1611000" />
       <workItem from="1640794736165" duration="2685000" />
       <workItem from="1640855988932" duration="597000" />
-      <workItem from="1640895463162" duration="1559000" />
+      <workItem from="1640895463162" duration="1633000" />
+      <workItem from="1640946926821" duration="601000" />
+      <workItem from="1640955072618" duration="1771000" />
+      <workItem from="1641209736295" duration="7082000" />
+      <workItem from="1641221105295" duration="1135000" />
+      <workItem from="1641372566512" duration="10610000" />
+      <workItem from="1641397113376" duration="825000" />
+      <workItem from="1641398035498" duration="14233000" />
+      <workItem from="1641455419267" duration="7487000" />
     </task>
     <task id="LOCAL-00001" summary="Proof of identification upload file and submit data done">
       <created>1640201898732</created>
