@@ -25,7 +25,7 @@ const Banner = () => {
                       <span>range</span>of subjects
                     </h2>
                     <p>
-                      TutorEthiopia connects parents and students with a
+                    HI-Trust Tutor connects parents and students with a
                       nationwide network of professional, expert tutors. Below
                       you will find a list of the most popular subjects we offer
                       tuition. Get in touch with us and give your requirements!

@@ -40,7 +40,7 @@ const Results = () => {
                   id='sortby'
                 >
                   <option value='rank' selected='selected'>
-                    TutorEthiopia Rank
+                    HI-Trust Tutor Rank
                   </option>
                   <option value='distance'>Distance</option>
                   <option value='lastlogin'>Last Login Date</option>

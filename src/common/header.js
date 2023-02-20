@@ -50,7 +50,7 @@ const Header = () => {
             <div class='col-4 col-sm-2'>
               <Link to='/' class='logo'>
                 <h4>
-                  Tutor<span>Ethiopia</span>
+                HI-Trust <span>Tutor</span>
                 </h4>
               </Link>
             </div>

@@ -12,7 +12,7 @@ const Users = () => {
       >
         <div id='maincontent'>
           <p id='location'>
-            <a href='/'>Tutor Ethiopia</a>
+            <a href='/'>HI-Trust Tutor</a>
             <a href='/all-subjects.asp'>Subjects</a>
             <a href='/english.asp'>English Tutors</a>
           </p>

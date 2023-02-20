@@ -4,7 +4,7 @@ const Banner = () => {
       <div id='searchpanelhome2'>
         <div id='searchpanelcontent'>
           <p id='location'>
-            <a href='/'>Tutor Ethiopia</a>
+            <a href='/'>HI-Trust Tutor</a>
             <a href='/tutor-search.asp'>Search</a>
           </p>
           <h1>Your Search Results</h1>

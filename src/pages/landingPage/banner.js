@@ -20,7 +20,7 @@ const Banner = () => {
                     data-wow-duration='1s'
                     data-wow-delay='1s'
                   >
-                    <h6>Welcome to TutorEthiopia</h6>
+                    <h6>Welcome to HI-Trust Tutor</h6>
                     <h2>
                       Meet <em>With</em> <span>Tutors</span> &amp; Learn
                     </h2>

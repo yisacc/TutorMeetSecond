@@ -3,7 +3,7 @@ const AllPhotos = () => {
     <>
       <div id='maincontent'>
         <p id='location'>
-          <a href='/'>Tutor Hunt</a>
+          <a href='/'>HI-Trust Tutor</a>
           <a href='/users/8040216326713/'>Profile (Mary)</a>
         </p>
         <h1>All Photos From Mary</h1>
